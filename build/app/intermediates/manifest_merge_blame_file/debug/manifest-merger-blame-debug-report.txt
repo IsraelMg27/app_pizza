@@ -1,0 +1,352 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foodish_delivery_flutter_ui_kit"
+4    android:versionCode="1"
+5    android:versionName="1.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:2:5-66
+15-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:2:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:3:5-79
+16-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:3:22-76
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:4:5-65
+17-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:4:22-62
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:5:5-60
+19-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:5:19-57
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:6:5-70
+20-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:6:19-67
+21
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:7:5-80
+22-->C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\android\app\src\main\AndroidManifest.xml:7:22-77
+23
+24    <queries>
+24-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-36:15
+25        <package android:name="com.google.android.apps.maps" />
+25-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-64
+25-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-61
+26        <package android:name="com.google.android.apps.mapslite" />
+26-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-68
+26-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-65
+27        <package android:name="com.autonavi.minimap" />
+27-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-56
+27-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-53
+28        <package android:name="com.baidu.BaiduMap" />
+28-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-54
+28-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-51
+29        <package android:name="com.waze" />
+29-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-44
+29-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-41
+30        <package android:name="ru.yandex.yandexnavi" />
+30-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-56
+30-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:15:18-53
+31        <package android:name="ru.yandex.yandexmaps" />
+31-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-56
+31-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:16:18-53
+32        <package android:name="com.citymapper.app.release" />
+32-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-62
+32-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:17:18-59
+33        <package android:name="com.mapswithme.maps.pro" />
+33-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-59
+33-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:18:18-56
+34        <package android:name="net.osmand" />
+34-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-46
+34-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:19:18-43
+35        <package android:name="net.osmand.plus" />
+35-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-51
+35-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:20:18-48
+36        <package android:name="ru.dublgis.dgismobile" />
+36-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-57
+36-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:21:18-54
+37        <package android:name="com.tencent.map" />
+37-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-51
+37-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:22:18-48
+38        <package android:name="com.here.app.maps" />
+38-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-53
+38-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:23:18-50
+39        <package android:name="com.huawei.maps.app" />
+39-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-55
+39-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:24:18-52
+40        <package android:name="com.alk.copilot.mapviewer" />
+40-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-61
+40-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:25:18-58
+41        <package android:name="com.tomtom.gplay.navapp" />
+41-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-59
+41-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:26:18-56
+42        <package android:name="com.tomtom.gplay.navapp.gofleet" />
+42-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-67
+42-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:27:18-64
+43        <package android:name="com.sygic.truck" />
+43-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-51
+43-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:28:18-48
+44        <package android:name="nl.flitsmeister" />
+44-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-51
+44-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:29:18-48
+45        <package android:name="nl.flitsmeister.flux" />
+45-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-56
+45-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:30:18-53
+46        <package android:name="com.nhn.android.nmap" />
+46-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-56
+46-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:31:18-53
+47        <package android:name="net.daum.android.map" />
+47-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-56
+47-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:32:18-53
+48        <package android:name="com.skt.tmap.ku" />
+48-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-51
+48-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:33:18-48
+49        <package android:name="cz.seznam.mapy" />
+49-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-50
+49-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:34:18-47
+50        <package android:name="com.mmi.maps" />
+50-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-48
+50-->[:map_launcher] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:35:18-45
+51    </queries> <!-- Include required permissions for Google Maps API to run. -->
+52    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+52-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+52-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+53
+54    <uses-feature
+54-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+55        android:glEsVersion="0x00020000"
+55-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+56        android:required="true" />
+56-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+57
+58    <permission
+58-->[androidx.core:core:1.13.1] C:\Users\Isra\.gradle\caches\transforms-3\105490c8249ef58f6f3b8360c78e11c8\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+59        android:name="com.example.foodish_delivery_flutter_ui_kit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+59-->[androidx.core:core:1.13.1] C:\Users\Isra\.gradle\caches\transforms-3\105490c8249ef58f6f3b8360c78e11c8\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+60        android:protectionLevel="signature" />
+60-->[androidx.core:core:1.13.1] C:\Users\Isra\.gradle\caches\transforms-3\105490c8249ef58f6f3b8360c78e11c8\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+61
+62    <uses-permission android:name="com.example.foodish_delivery_flutter_ui_kit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+62-->[androidx.core:core:1.13.1] C:\Users\Isra\.gradle\caches\transforms-3\105490c8249ef58f6f3b8360c78e11c8\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+62-->[androidx.core:core:1.13.1] C:\Users\Isra\.gradle\caches\transforms-3\105490c8249ef58f6f3b8360c78e11c8\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+63
+64    <application
+65        android:name="android.app.Application"
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.13.1] C:\Users\Isra\.gradle\caches\transforms-3\105490c8249ef58f6f3b8360c78e11c8\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+67        android:debuggable="true"
+68        android:icon="@mipmap/ic_launcher"
+69        android:label="Foodish Delivery" >
+70        <activity
+71            android:name="com.example.foodish_delivery_flutter_ui_kit.MainActivity"
+72            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+73            android:exported="true"
+74            android:hardwareAccelerated="true"
+75            android:launchMode="singleTop"
+76            android:theme="@style/LaunchTheme"
+77            android:windowSoftInputMode="adjustResize" >
+78
+79            <!--
+80                 Specifies an Android theme to apply to this Activity as soon as
+81                 the Android process has started. This theme is visible to the user
+82                 while the Flutter UI initializes. After that, this theme continues
+83                 to determine the Window background behind the Flutter UI.
+84            -->
+85            <meta-data
+86                android:name="io.flutter.embedding.android.NormalTheme"
+87                android:resource="@style/NormalTheme" />
+88
+89            <intent-filter>
+90                <action android:name="android.intent.action.MAIN" />
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+93            </intent-filter>
+94        </activity>
+95        <!--
+96             Don't delete the meta-data below.
+97             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+98        -->
+99        <meta-data
+100            android:name="flutterEmbedding"
+101            android:value="2" />
+102        <meta-data
+103            android:name="com.google.android.geo.API_KEY"
+104            android:value="AIzaSyDVhuXg9TdrZnFGKQViOmC-4kr7lBgK_Nw" />
+105
+106        <provider
+106-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-19:20
+107            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+107-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-82
+108            android:authorities="com.example.foodish_delivery_flutter_ui_kit.flutter.image_provider"
+108-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-74
+109            android:exported="false"
+109-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+110            android:grantUriPermissions="true" >
+110-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-47
+111            <meta-data
+111-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-18:75
+112                android:name="android.support.FILE_PROVIDER_PATHS"
+112-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+113                android:resource="@xml/flutter_image_picker_file_paths" />
+113-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-72
+114        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+115        <service
+115-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33:19
+116            android:name="com.google.android.gms.metadata.ModuleDependencies"
+116-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-78
+117            android:enabled="false"
+117-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+118            android:exported="false" >
+118-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+119            <intent-filter>
+119-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-28:29
+120                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+120-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-94
+120-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-91
+121            </intent-filter>
+122
+123            <meta-data
+123-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:36
+124                android:name="photopicker_activity:0:required"
+124-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-63
+125                android:value="" />
+125-->[:image_picker_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-33
+126        </service>
+127
+128        <activity
+128-->[:url_launcher_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+129            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+129-->[:url_launcher_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+130            android:exported="false"
+130-->[:url_launcher_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+131            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Needs to be explicitly declared on P+ -->
+131-->[:url_launcher_android] C:\Users\Isra\Downloads\pizza\foodish_delivery_flutter_ui_kit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+132        <uses-library
+132-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+133            android:name="org.apache.http.legacy"
+133-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+134            android:required="false" />
+134-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Isra\.gradle\caches\transforms-3\d59ec1901e3684e737b4039da38d2d35\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+135
+136        <activity
+136-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+137            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+137-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+138            android:excludeFromRecents="true"
+138-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+139            android:exported="false"
+139-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+140-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+141        <!--
+142            Service handling Google Sign-In user revocation. For apps that do not integrate with
+143            Google Sign-In, this service will never be started.
+144        -->
+145        <service
+145-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+146            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+146-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+147            android:exported="true"
+147-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+148            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+148-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+149            android:visibleToInstantApps="true" />
+149-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Isra\.gradle\caches\transforms-3\de008e0d80b0ac10946a803b4417c21f\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+150
+151        <activity
+151-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Isra\.gradle\caches\transforms-3\caeefa6ccb861b68e917e0c0435c69da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Isra\.gradle\caches\transforms-3\caeefa6ccb861b68e917e0c0435c69da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Isra\.gradle\caches\transforms-3\caeefa6ccb861b68e917e0c0435c69da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Isra\.gradle\caches\transforms-3\caeefa6ccb861b68e917e0c0435c69da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Isra\.gradle\caches\transforms-3\8435c608dc11aec23a8235e2884813fc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Isra\.gradle\caches\transforms-3\8435c608dc11aec23a8235e2884813fc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Isra\.gradle\caches\transforms-3\8435c608dc11aec23a8235e2884813fc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+159
+160        <uses-library
+160-->[androidx.window:window:1.2.0] C:\Users\Isra\.gradle\caches\transforms-3\fb1377238f50b6db5553b7a83cee12a2\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+161            android:name="androidx.window.extensions"
+161-->[androidx.window:window:1.2.0] C:\Users\Isra\.gradle\caches\transforms-3\fb1377238f50b6db5553b7a83cee12a2\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+162            android:required="false" />
+162-->[androidx.window:window:1.2.0] C:\Users\Isra\.gradle\caches\transforms-3\fb1377238f50b6db5553b7a83cee12a2\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+163        <uses-library
+163-->[androidx.window:window:1.2.0] C:\Users\Isra\.gradle\caches\transforms-3\fb1377238f50b6db5553b7a83cee12a2\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+164            android:name="androidx.window.sidecar"
+164-->[androidx.window:window:1.2.0] C:\Users\Isra\.gradle\caches\transforms-3\fb1377238f50b6db5553b7a83cee12a2\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+165            android:required="false" />
+165-->[androidx.window:window:1.2.0] C:\Users\Isra\.gradle\caches\transforms-3\fb1377238f50b6db5553b7a83cee12a2\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+166
+167        <provider
+167-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Isra\.gradle\caches\transforms-3\4a8d42fea1c3f0372fdd0dcead23e5bc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+168            android:name="androidx.startup.InitializationProvider"
+168-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Isra\.gradle\caches\transforms-3\4a8d42fea1c3f0372fdd0dcead23e5bc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+169            android:authorities="com.example.foodish_delivery_flutter_ui_kit.androidx-startup"
+169-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Isra\.gradle\caches\transforms-3\4a8d42fea1c3f0372fdd0dcead23e5bc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+170            android:exported="false" >
+170-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Isra\.gradle\caches\transforms-3\4a8d42fea1c3f0372fdd0dcead23e5bc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+171            <meta-data
+171-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Isra\.gradle\caches\transforms-3\4a8d42fea1c3f0372fdd0dcead23e5bc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+172                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+172-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Isra\.gradle\caches\transforms-3\4a8d42fea1c3f0372fdd0dcead23e5bc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+173                android:value="androidx.startup" />
+173-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Isra\.gradle\caches\transforms-3\4a8d42fea1c3f0372fdd0dcead23e5bc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+174            <meta-data
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+175                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+176                android:value="androidx.startup" />
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+177        </provider>
+178
+179        <receiver
+179-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+180            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+181            android:directBootAware="false"
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+182            android:enabled="true"
+182-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+183            android:exported="true"
+183-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+184            android:permission="android.permission.DUMP" >
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+185            <intent-filter>
+185-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+186                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+187            </intent-filter>
+188            <intent-filter>
+188-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+189                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+190            </intent-filter>
+191            <intent-filter>
+191-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+192                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+192-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+192-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+193            </intent-filter>
+194            <intent-filter>
+194-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+195                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+195-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+195-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Isra\.gradle\caches\transforms-3\b2088021bdb0e940154a9bf8f16b9481\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+196            </intent-filter>
+197        </receiver>
+198    </application>
+199
+200</manifest>

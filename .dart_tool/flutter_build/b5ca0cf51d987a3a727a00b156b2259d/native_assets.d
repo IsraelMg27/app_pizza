@@ -1,0 +1,1 @@
+ C:\\Users\\Isra\\Downloads\\pizza\\foodish_delivery_flutter_ui_kit\\.dart_tool\\flutter_build\\b5ca0cf51d987a3a727a00b156b2259d\\native_assets.yaml: 

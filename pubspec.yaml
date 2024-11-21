@@ -1,0 +1,64 @@
+name: foodish_delivery_flutter_ui_kit
+description: Foodish Delivery Flutter UI Kit.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+# Flutter version  3.24.4
+# Dart version 3.5.4
+version: 1.0.4
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  intl_phone_number_input: ^0.7.4
+  pinput: ^2.2.31
+  cupertino_icons: ^1.0.2
+  stylish_bottom_bar: ^1.0.3
+  carousel_slider: ^4.2.1
+  dropdown_button2:
+  image_picker: ^1.0.0
+  flutter_rating_bar: ^4.0.1
+  flutter_switch: ^0.3.2
+  google_maps_flutter: ^2.3.1
+  url_launcher: ^6.1.11
+  timeline_list: ^0.0.6
+  timelines:
+  shared_preferences: ^2.2.1
+  popover: ^0.2.8+2
+  fl_country_code_picker: ^0.1.5
+  intl: any
+  map_launcher: ^3.1.0
+  cupertino_will_pop_scope: ^1.2.1
+  flutter_localization: ^0.2.0
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+  fonts:
+    - family: Urbanist_Regular
+      fonts:
+        - asset: assets/fonts/Urbanist-Regular.ttf
+    - family: Urbanist_Medium
+      fonts:
+        - asset: assets/fonts/Urbanist-Medium.ttf
+    - family: Urbanist_Bold
+      fonts:
+        - asset: assets/fonts/Urbanist-Bold.ttf
+    - family: Urbanist_SemiBold
+      fonts:
+        - asset: assets/fonts/Urbanist-SemiBold.ttf
+    - family: Urbanist_Light
+      fonts:
+        - asset: assets/fonts/Urbanist-Light.ttf
+    - family: Urbanist_ExtraBold
+      fonts:
+        - asset: assets/fonts/Urbanist-ExtraBold.ttf
